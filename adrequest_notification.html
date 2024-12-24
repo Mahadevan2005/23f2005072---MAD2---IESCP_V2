@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Request Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .ad-details {
+            background-color: #e7f3ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Hi there!</h1>
+        <p>You have an ad request waiting for your response. Please review it at your earliest convenience.</p>
+        <div class="ad-details">
+            <h2>Ad Details:</h2>
+            <p><strong>Ad Message:</strong> {{ ad_request_msg }}</p>
+            <p><strong>Requirements:</strong> {{ ad_req }}</p>
+            <p><strong>Payment Amount:</strong> {{ ad_payment }}</p>
+            <p><strong>Campaign Name:</strong> {{ campaign_name }}</p>
+        </div>
+    </div>
+</body>
+</html>
