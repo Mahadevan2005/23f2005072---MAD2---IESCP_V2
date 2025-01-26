@@ -32,7 +32,6 @@ git clone https://github.com/Mahadevan2005/Influencer_Engagement_and_Sponsorship
 - #### Create Virtual Environment
   
 ```bash
-cd server
 python -m venv venv
 ```
 
@@ -92,6 +91,7 @@ In another terminal window, run the MailHog to see mail functionality:
 ```bash
 ~/go/bin/MailHog
 ```
+
 🌟 You are all set!
 <hr>
 
